@@ -1,17 +1,67 @@
-# Welcome to MkDocs
+# Welcome to MTNBlog's API Documentation
 
-For full documentation visit [mkdocs.org](http://mkdocs.org).
+We're currently in the middle of building out our api so keep checking back or subscribe for updates.
 
-## Commands
+## Using MTNBlog's API
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+Lorem voluptate amet pariatur in nam cupiditate porro! Quas labore beatae repellendus expedita aliquid dolor blanditiis. Blanditiis fugit commodi dolore enim corporis! Consequuntur quo nemo beatae voluptatibus inventore qui veniam?
 
-## Project layout
+## Authentication
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Amet adipisci placeat nobis saepe perferendis cum molestias. Veniam sit omnis porro sed explicabo. Debitis rem nihil delectus voluptatem voluptatum molestiae. Nobis temporibus provident quas iusto molestias. Velit iste iste.
+
+## GET [/api/mountains]
+
+Returns a list of mountains.
+
+    [
+        {
+            "mountainRange": "Alps",
+            "name": "Matterhorn",
+            "imageS": "http://i.imgur.com/ZgjyET2.jpg",
+            "imageL": "http://i.imgur.com/7bMqZqj.jpg",
+            "photoCreditsName": "Sam Ferrara",
+            "photoCreditsUrl": "http://samferrara.ch",
+            "latitude": 45.976389,
+            "longitude": 7.658333,
+            "elevationM": 4478,
+            "elevationFt": 14692
+        },
+        {
+            "mountainRange": "Patagonia",
+            "name": "Fitz Roy",
+            "imageS": "http://i.imgur.com/wOpLBcU.jpg",
+            "imageL": "http://i.imgur.com/NrZEiun.jpg",
+            "photoCreditsName": "Greg Boratyn",
+            "photoCreditsUrl": "http://www.eveningphotography.com/",
+            "latitude": -49.271278,
+            "longitude": -73.043222,
+            "elevationM": 3405,
+            "elevationFt": 11171
+        },
+        ...
+    ]
+
+Parameters
+
+| Parameter  | How to use | Description |
+|------------|------------|-------------|
+| API Key    | ?key=x     |             |
+
+## GET [/api/mountain/{id}]
+
+Returns a single mountain.
+
+    {
+        "mountainRange": "Alps",
+        "name": "Matterhorn",
+        "imageS": "http://i.imgur.com/ZgjyET2.jpg",
+        "imageL": "http://i.imgur.com/7bMqZqj.jpg",
+        "photoCreditsName": "Sam Ferrara",
+        "photoCreditsUrl": "http://samferrara.ch",
+        "latitude": 45.976389,
+        "longitude": 7.658333,
+        "elevationM": 4478,
+        "elevationFt": 14692
+    }
+

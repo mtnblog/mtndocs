@@ -1,2 +1,2 @@
-site_name: MTNBLOG API DOCS
-theme: readthedocs
+site_name: MTNBlog | API Documentation
+theme_dir: 'mtndoc_theme'

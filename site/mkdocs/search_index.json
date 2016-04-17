@@ -2,23 +2,33 @@
     "docs": [
         {
             "location": "/",
-            "text": "Welcome to MkDocs\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
+            "text": "Welcome to MTNBlog's API Documentation\n\n\nWe're currently in the middle of building out our api so keep checking back or subscribe for updates.\n\n\nUsing MTNBlog's API\n\n\nLorem voluptate amet pariatur in nam cupiditate porro! Quas labore beatae repellendus expedita aliquid dolor blanditiis. Blanditiis fugit commodi dolore enim corporis! Consequuntur quo nemo beatae voluptatibus inventore qui veniam?\n\n\nAuthentication\n\n\nAmet adipisci placeat nobis saepe perferendis cum molestias. Veniam sit omnis porro sed explicabo. Debitis rem nihil delectus voluptatem voluptatum molestiae. Nobis temporibus provident quas iusto molestias. Velit iste iste.\n\n\nGET [/api/mountains]\n\n\nReturns a list of mountains.\n\n\n[\n    {\n        \"mountainRange\": \"Alps\",\n        \"name\": \"Matterhorn\",\n        \"imageS\": \"http://i.imgur.com/ZgjyET2.jpg\",\n        \"imageL\": \"http://i.imgur.com/7bMqZqj.jpg\",\n        \"photoCreditsName\": \"Sam Ferrara\",\n        \"photoCreditsUrl\": \"http://samferrara.ch\",\n        \"latitude\": 45.976389,\n        \"longitude\": 7.658333,\n        \"elevationM\": 4478,\n        \"elevationFt\": 14692\n    },\n    {\n        \"mountainRange\": \"Patagonia\",\n        \"name\": \"Fitz Roy\",\n        \"imageS\": \"http://i.imgur.com/wOpLBcU.jpg\",\n        \"imageL\": \"http://i.imgur.com/NrZEiun.jpg\",\n        \"photoCreditsName\": \"Greg Boratyn\",\n        \"photoCreditsUrl\": \"http://www.eveningphotography.com/\",\n        \"latitude\": -49.271278,\n        \"longitude\": -73.043222,\n        \"elevationM\": 3405,\n        \"elevationFt\": 11171\n    },\n    ...\n]\n\n\n\nParameters\n\n\n\n\n\n\n\n\nParameter\n\n\nHow to use\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\nAPI Key\n\n\n?key=x\n\n\n\n\n\n\n\n\n\n\nGET [/api/mountain/{id}]\n\n\nReturns a single mountain.\n\n\n{\n    \"mountainRange\": \"Alps\",\n    \"name\": \"Matterhorn\",\n    \"imageS\": \"http://i.imgur.com/ZgjyET2.jpg\",\n    \"imageL\": \"http://i.imgur.com/7bMqZqj.jpg\",\n    \"photoCreditsName\": \"Sam Ferrara\",\n    \"photoCreditsUrl\": \"http://samferrara.ch\",\n    \"latitude\": 45.976389,\n    \"longitude\": 7.658333,\n    \"elevationM\": 4478,\n    \"elevationFt\": 14692\n}",
             "title": "Home"
         },
         {
-            "location": "/#welcome-to-mkdocs",
-            "text": "For full documentation visit  mkdocs.org .",
-            "title": "Welcome to MkDocs"
+            "location": "/#welcome-to-mtnblogs-api-documentation",
+            "text": "We're currently in the middle of building out our api so keep checking back or subscribe for updates.",
+            "title": "Welcome to MTNBlog's API Documentation"
         },
         {
-            "location": "/#commands",
-            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.",
-            "title": "Commands"
+            "location": "/#using-mtnblogs-api",
+            "text": "Lorem voluptate amet pariatur in nam cupiditate porro! Quas labore beatae repellendus expedita aliquid dolor blanditiis. Blanditiis fugit commodi dolore enim corporis! Consequuntur quo nemo beatae voluptatibus inventore qui veniam?",
+            "title": "Using MTNBlog's API"
         },
         {
-            "location": "/#project-layout",
-            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
-            "title": "Project layout"
+            "location": "/#authentication",
+            "text": "Amet adipisci placeat nobis saepe perferendis cum molestias. Veniam sit omnis porro sed explicabo. Debitis rem nihil delectus voluptatem voluptatum molestiae. Nobis temporibus provident quas iusto molestias. Velit iste iste.",
+            "title": "Authentication"
+        },
+        {
+            "location": "/#get-apimountains",
+            "text": "Returns a list of mountains.  [\n    {\n        \"mountainRange\": \"Alps\",\n        \"name\": \"Matterhorn\",\n        \"imageS\": \"http://i.imgur.com/ZgjyET2.jpg\",\n        \"imageL\": \"http://i.imgur.com/7bMqZqj.jpg\",\n        \"photoCreditsName\": \"Sam Ferrara\",\n        \"photoCreditsUrl\": \"http://samferrara.ch\",\n        \"latitude\": 45.976389,\n        \"longitude\": 7.658333,\n        \"elevationM\": 4478,\n        \"elevationFt\": 14692\n    },\n    {\n        \"mountainRange\": \"Patagonia\",\n        \"name\": \"Fitz Roy\",\n        \"imageS\": \"http://i.imgur.com/wOpLBcU.jpg\",\n        \"imageL\": \"http://i.imgur.com/NrZEiun.jpg\",\n        \"photoCreditsName\": \"Greg Boratyn\",\n        \"photoCreditsUrl\": \"http://www.eveningphotography.com/\",\n        \"latitude\": -49.271278,\n        \"longitude\": -73.043222,\n        \"elevationM\": 3405,\n        \"elevationFt\": 11171\n    },\n    ...\n]  Parameters     Parameter  How to use  Description      API Key  ?key=x",
+            "title": "GET [/api/mountains]"
+        },
+        {
+            "location": "/#get-apimountainid",
+            "text": "Returns a single mountain.  {\n    \"mountainRange\": \"Alps\",\n    \"name\": \"Matterhorn\",\n    \"imageS\": \"http://i.imgur.com/ZgjyET2.jpg\",\n    \"imageL\": \"http://i.imgur.com/7bMqZqj.jpg\",\n    \"photoCreditsName\": \"Sam Ferrara\",\n    \"photoCreditsUrl\": \"http://samferrara.ch\",\n    \"latitude\": 45.976389,\n    \"longitude\": 7.658333,\n    \"elevationM\": 4478,\n    \"elevationFt\": 14692\n}",
+            "title": "GET [/api/mountain/{id}]"
         }
     ]
 }
