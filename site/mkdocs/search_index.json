@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/",
-            "text": "Welcome to MTNBlog's API Documentation\n\n\nWe're currently in the middle of building out our api so keep checking back or subscribe for updates.\n\n\nUsing MTNBlog's API\n\n\nLorem voluptate amet pariatur in nam cupiditate porro! Quas labore beatae repellendus expedita aliquid dolor blanditiis. Blanditiis fugit commodi dolore enim corporis! Consequuntur quo nemo beatae voluptatibus inventore qui veniam?\n\n\nAuthentication\n\n\nAmet adipisci placeat nobis saepe perferendis cum molestias. Veniam sit omnis porro sed explicabo. Debitis rem nihil delectus voluptatem voluptatum molestiae. Nobis temporibus provident quas iusto molestias. Velit iste iste.\n\n\nGET [/api/mountains]\n\n\nReturns a list of mountains.\n\n\n[\n    {\n        \"mountainRange\": \"Alps\",\n        \"name\": \"Matterhorn\",\n        \"imageS\": \"http://i.imgur.com/ZgjyET2.jpg\",\n        \"imageL\": \"http://i.imgur.com/7bMqZqj.jpg\",\n        \"photoCreditsName\": \"Sam Ferrara\",\n        \"photoCreditsUrl\": \"http://samferrara.ch\",\n        \"latitude\": 45.976389,\n        \"longitude\": 7.658333,\n        \"elevationM\": 4478,\n        \"elevationFt\": 14692\n    },\n    {\n        \"mountainRange\": \"Patagonia\",\n        \"name\": \"Fitz Roy\",\n        \"imageS\": \"http://i.imgur.com/wOpLBcU.jpg\",\n        \"imageL\": \"http://i.imgur.com/NrZEiun.jpg\",\n        \"photoCreditsName\": \"Greg Boratyn\",\n        \"photoCreditsUrl\": \"http://www.eveningphotography.com/\",\n        \"latitude\": -49.271278,\n        \"longitude\": -73.043222,\n        \"elevationM\": 3405,\n        \"elevationFt\": 11171\n    },\n    ...\n]\n\n\n\nParameters\n\n\n\n\n\n\n\n\nParameter\n\n\nHow to use\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\nAPI Key\n\n\n?key=x\n\n\n\n\n\n\n\n\n\n\nGET [/api/mountain/{id}]\n\n\nReturns a single mountain.\n\n\n{\n    \"mountainRange\": \"Alps\",\n    \"name\": \"Matterhorn\",\n    \"imageS\": \"http://i.imgur.com/ZgjyET2.jpg\",\n    \"imageL\": \"http://i.imgur.com/7bMqZqj.jpg\",\n    \"photoCreditsName\": \"Sam Ferrara\",\n    \"photoCreditsUrl\": \"http://samferrara.ch\",\n    \"latitude\": 45.976389,\n    \"longitude\": 7.658333,\n    \"elevationM\": 4478,\n    \"elevationFt\": 14692\n}",
+            "text": "Welcome to MTNBlog's API Documentation\n\n\nWe're currently in the middle of building out our api so keep checking back or subscribe for updates.\n\n\nUsing MTNBlog's API\n\n\nLorem voluptate amet pariatur in nam cupiditate porro! Quas labore beatae repellendus expedita aliquid dolor blanditiis. Blanditiis fugit commodi dolore enim corporis! Consequuntur quo nemo beatae voluptatibus inventore qui veniam?\n\n\nAuthentication\n\n\nAmet adipisci placeat nobis saepe perferendis cum molestias. Veniam sit omnis porro sed explicabo. Debitis rem nihil delectus voluptatem voluptatum molestiae. Nobis temporibus provident quas iusto molestias. Velit iste iste.\n\n\nGET [/api/photos]\n\n\nReturns a list of mountains.\n\n\n[\n    {\n\n    },\n    {\n\n    },\n    ...\n]\n\n\n\nParameters\n\n\n\n\n\n\n\n\nParameter\n\n\nHow to use\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\nAPI Key\n\n\n?key=x\n\n\n\n\n\n\n\n\n\n\nGET [/api/videos]\n\n\nReturns a list of videos.\n\n\n[\n    {\n\n    },\n    {\n\n    },\n    ...\n]\n\n\n\nParameters\n\n\n\n\n\n\n\n\nParameter\n\n\nHow to use\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\nAPI Key\n\n\n?key=x",
             "title": "Home"
         },
         {
@@ -21,14 +21,14 @@
             "title": "Authentication"
         },
         {
-            "location": "/#get-apimountains",
-            "text": "Returns a list of mountains.  [\n    {\n        \"mountainRange\": \"Alps\",\n        \"name\": \"Matterhorn\",\n        \"imageS\": \"http://i.imgur.com/ZgjyET2.jpg\",\n        \"imageL\": \"http://i.imgur.com/7bMqZqj.jpg\",\n        \"photoCreditsName\": \"Sam Ferrara\",\n        \"photoCreditsUrl\": \"http://samferrara.ch\",\n        \"latitude\": 45.976389,\n        \"longitude\": 7.658333,\n        \"elevationM\": 4478,\n        \"elevationFt\": 14692\n    },\n    {\n        \"mountainRange\": \"Patagonia\",\n        \"name\": \"Fitz Roy\",\n        \"imageS\": \"http://i.imgur.com/wOpLBcU.jpg\",\n        \"imageL\": \"http://i.imgur.com/NrZEiun.jpg\",\n        \"photoCreditsName\": \"Greg Boratyn\",\n        \"photoCreditsUrl\": \"http://www.eveningphotography.com/\",\n        \"latitude\": -49.271278,\n        \"longitude\": -73.043222,\n        \"elevationM\": 3405,\n        \"elevationFt\": 11171\n    },\n    ...\n]  Parameters     Parameter  How to use  Description      API Key  ?key=x",
-            "title": "GET [/api/mountains]"
+            "location": "/#get-apiphotos",
+            "text": "Returns a list of mountains.  [\n    {\n\n    },\n    {\n\n    },\n    ...\n]  Parameters     Parameter  How to use  Description      API Key  ?key=x",
+            "title": "GET [/api/photos]"
         },
         {
-            "location": "/#get-apimountainid",
-            "text": "Returns a single mountain.  {\n    \"mountainRange\": \"Alps\",\n    \"name\": \"Matterhorn\",\n    \"imageS\": \"http://i.imgur.com/ZgjyET2.jpg\",\n    \"imageL\": \"http://i.imgur.com/7bMqZqj.jpg\",\n    \"photoCreditsName\": \"Sam Ferrara\",\n    \"photoCreditsUrl\": \"http://samferrara.ch\",\n    \"latitude\": 45.976389,\n    \"longitude\": 7.658333,\n    \"elevationM\": 4478,\n    \"elevationFt\": 14692\n}",
-            "title": "GET [/api/mountain/{id}]"
+            "location": "/#get-apivideos",
+            "text": "Returns a list of videos.  [\n    {\n\n    },\n    {\n\n    },\n    ...\n]  Parameters     Parameter  How to use  Description      API Key  ?key=x",
+            "title": "GET [/api/videos]"
         }
     ]
 }

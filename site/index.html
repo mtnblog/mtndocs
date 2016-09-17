@@ -30,6 +30,8 @@
     <header>
         <h1><a href="/">MTNBLOG</a></h1>
         <nav class="top-nav">
+            <a href="/photos">PHOTOS</a>
+            <a href="/videos">VIDEOS</a>
             <a href="/api">API</a>
             <a href="/rss">RSS</a>
         </nav>
@@ -54,9 +56,9 @@
                 
                     <li><a class="toctree-l4" href="#authentication">Authentication</a></li>
                 
-                    <li><a class="toctree-l4" href="#get-apimountains">GET [/api/mountains]</a></li>
+                    <li><a class="toctree-l4" href="#get-apiphotos">GET [/api/photos]</a></li>
                 
-                    <li><a class="toctree-l4" href="#get-apimountainid">GET [/api/mountain/{id}]</a></li>
+                    <li><a class="toctree-l4" href="#get-apivideos">GET [/api/videos]</a></li>
                 
             
             </ul>
@@ -96,32 +98,14 @@
 <p>Lorem voluptate amet pariatur in nam cupiditate porro! Quas labore beatae repellendus expedita aliquid dolor blanditiis. Blanditiis fugit commodi dolore enim corporis! Consequuntur quo nemo beatae voluptatibus inventore qui veniam?</p>
 <h2 id="authentication">Authentication</h2>
 <p>Amet adipisci placeat nobis saepe perferendis cum molestias. Veniam sit omnis porro sed explicabo. Debitis rem nihil delectus voluptatem voluptatum molestiae. Nobis temporibus provident quas iusto molestias. Velit iste iste.</p>
-<h2 id="get-apimountains">GET [/api/mountains]</h2>
+<h2 id="get-apiphotos">GET [/api/photos]</h2>
 <p>Returns a list of mountains.</p>
 <pre><code>[
     {
-        "mountainRange": "Alps",
-        "name": "Matterhorn",
-        "imageS": "http://i.imgur.com/ZgjyET2.jpg",
-        "imageL": "http://i.imgur.com/7bMqZqj.jpg",
-        "photoCreditsName": "Sam Ferrara",
-        "photoCreditsUrl": "http://samferrara.ch",
-        "latitude": 45.976389,
-        "longitude": 7.658333,
-        "elevationM": 4478,
-        "elevationFt": 14692
+
     },
     {
-        "mountainRange": "Patagonia",
-        "name": "Fitz Roy",
-        "imageS": "http://i.imgur.com/wOpLBcU.jpg",
-        "imageL": "http://i.imgur.com/NrZEiun.jpg",
-        "photoCreditsName": "Greg Boratyn",
-        "photoCreditsUrl": "http://www.eveningphotography.com/",
-        "latitude": -49.271278,
-        "longitude": -73.043222,
-        "elevationM": 3405,
-        "elevationFt": 11171
+
     },
     ...
 ]
@@ -143,21 +127,35 @@
 </tr>
 </tbody>
 </table>
-<h2 id="get-apimountainid">GET [/api/mountain/{id}]</h2>
-<p>Returns a single mountain.</p>
-<pre><code>{
-    "mountainRange": "Alps",
-    "name": "Matterhorn",
-    "imageS": "http://i.imgur.com/ZgjyET2.jpg",
-    "imageL": "http://i.imgur.com/7bMqZqj.jpg",
-    "photoCreditsName": "Sam Ferrara",
-    "photoCreditsUrl": "http://samferrara.ch",
-    "latitude": 45.976389,
-    "longitude": 7.658333,
-    "elevationM": 4478,
-    "elevationFt": 14692
-}
+<h2 id="get-apivideos">GET [/api/videos]</h2>
+<p>Returns a list of videos.</p>
+<pre><code>[
+    {
+
+    },
+    {
+
+    },
+    ...
+]
 </code></pre>
+<p>Parameters</p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>How to use</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>API Key</td>
+<td>?key=x</td>
+<td></td>
+</tr>
+</tbody>
+</table>
               
             </div>
           </div>
@@ -181,5 +179,5 @@
 
 <!--
 MkDocs version : 0.15.3
-Build Date UTC : 2016-04-17 16:18:19.719369
+Build Date UTC : 2016-05-07 02:00:55.951273
 -->
